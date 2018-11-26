@@ -1,6 +1,0 @@
-
-down vote
-accepted
-probably:
-
-git pull origin master
