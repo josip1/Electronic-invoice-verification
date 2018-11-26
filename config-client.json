@@ -1,0 +1,17 @@
+
+{"url" : "https://blagajne-test.fu.gov.si:9002/v1/cash_registers",
+"schema":"FiscalVerificationSchema.json",
+"invoiceJSON" : "invoiceFile.json",
+"TaxNumber" : 10039856,
+"BusinessPremiseID" :"BP101",
+"ElectronicDeviceID":"B1",
+"OperatorTaxNumber": 42539999,
+"sslcert" : "/sslcert/",
+"myCertFile" : "demo_podjetje.p12",     
+"passphrase" : "Geslo123#",
+"tlsCertFile" : "test-tls.cer",     
+"fursCertPemFile" : "test-sign.pem",  
+"TaxRate" : 22,
+"dtf" : "Y-MM-DD[T]HH:mm:ss[Z]",
+"responseFile" : "response.json"
+}
