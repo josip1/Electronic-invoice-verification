@@ -28,7 +28,7 @@ Another example is the ELECTRON app (reference).
 
  
 
-# # After the download, 
+## After the download, 
 
 1) Install NPM and NODEJS, 
 
@@ -45,7 +45,7 @@ Another example is the ELECTRON app (reference).
  
  
 
-# # Some explanations of the config-client.json: 
+## Some explanations of the config-client.json: 
 
 "invoiceJSON" : "invoiceFile.json", //yours's invoice data file, to be send to FURS 
 
@@ -58,7 +58,7 @@ Another example is the ELECTRON app (reference).
 "responseFile" : "response.json", response file received from FURS 
 
  
-# # See also: 
+## See also: 
 
 1) https://github.com/BostjanPisler/node-furs-fiscal-verification, 
 
@@ -69,7 +69,7 @@ Another example is the ELECTRON app (reference).
 4) https://github.com/rokj/js-furs-fiscal/blob/master/example.html. 
  
 
-# # Other usage 
+## Other usage 
 
 You should change the verification schema, the certificates, the config-client file and use the library to send other type of messages to a server using a TLS protocol. 
 
