@@ -1,5 +1,5 @@
 {
-  "name": "fpblagajna",
+  "name": "Electronic-invoiceverification",
   "version": "1.0.0",
   "description": "",
   "main": "nodeclient.js",
@@ -7,14 +7,13 @@
   "dependencies": {
     "biguint-format": "^1.0.0",
     "co": "^4.6.0",
-    "co-wait": "^0.0.0",
     "fs": "^0.0.1-security",
     "fs-promise": "^2.0.3",
     "http": "^0.0.0",
     "https": "^1.0.0",
     "ip": "^1.1.5",
     "js-csp": "^1.0.1",
-    "jsonschema": "^1.2.2",
+    "jschema": "0.0.5",
     "jsonwebtoken": "^8.1.1",
     "jsrsasign": "^8.0.6",
     "md5": "^2.2.1",
@@ -22,32 +21,19 @@
     "nedb": "^1.8.0",
     "node-fetch": "^2.2.0",
     "node-forge": "^0.7.1",
-    "nodejs-websocket": "^1.7.1",
     "pkg": "^4.3.4",
     "qrcode": "^1.2.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
-    "serialize-error": "^3.0.0",
-    "socket.js": "^0.1.4",
-    "tessel": "^0.3.25",
-    "tiny-router": "^0.1.4",
     "tls": "^0.0.1",
     "uuid": "^3.2.1",
     "xmlhttprequest": "^1.8.0"
   },
-  "pkg": {
-    "assets": [
-      "ssl-cert/*.*",
-      "./ssl-cert/10160027-1.p12",
-      "./ssl-cert/test-sign.pem",
-      "./ssl-cert/test-tls.cer"
-    ]
-  },
-  "scripts": {
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node nodeclient.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Josip Zohil",
   "license": "ISC"
 }
