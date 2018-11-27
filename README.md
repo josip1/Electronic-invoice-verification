@@ -73,7 +73,7 @@ Another example is the ELECTRON app (reference).
 
 You should change the verification schema, the certificates, the config-client file and use the library to send other type of messages to a server using a TLS protocol. 
 
-Josip Zohil
+Josip Zohil,27.11.2018
  
 
  
