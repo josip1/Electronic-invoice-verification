@@ -30,11 +30,17 @@ Another example is the ELECTRON app (reference).
 
 After the download, 
 
-1) copy yours's cert (demo_podjetje.p12) to the subfolder (slo-cert), 
+1) Install NPM and NODEJS, 
 
-2) in the file config-client.json change the name (demo_podjetje.p12), the password and other data. 
+2) copy yours's cert (demo_podjetje.p12) to the subfolder (slo-cert), 
 
-3) in the command window (of the downloaded folder) run: node nodeclient. 
+3) in the file config-client.json change the name (demo_podjetje.p12), the password and other data. 
+
+4) in the command window (of the downloaded folder) run: 
+
+   A) npm install           (to install the dependences modules) 
+
+   B) node nodeclient      (to run a test). 
 
  
  
@@ -65,4 +71,9 @@ See also:
 
 Other usage: 
 
-You should change the verification schema, the certificates, the config-client file and use the library to send other type of messages. 
+You should change the verification schema, the certificates, the config-client file and use the library to send other type of messages to a server using a TLS protocol. 
+
+ 
+ 
+
+ 
