@@ -28,7 +28,7 @@ Another example is the ELECTRON app (reference).
 
  
 
-## After the download, 
+## After downloading: 
 
 1) Install NPM and NODEJS, 
 
