@@ -38,9 +38,9 @@ Another example is the ELECTRON app (reference).
 
 4) in the command window (of the downloaded folder) run: 
 
-   A) npm install           (to install the dependences modules) 
+   A) npm install           (install the dependences modules), 
 
-   B) node nodeclient      (to run a test). 
+   B) node nodeclient      (run an example). 
 
  
  
